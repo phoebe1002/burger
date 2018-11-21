@@ -12,7 +12,7 @@
 
 ## Technologies
 * Node.js
-* npm** Packages
+* npm Packages
 * Express
 * Handlebars
 * MySQL
