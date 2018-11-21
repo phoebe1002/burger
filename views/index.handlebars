@@ -1,0 +1,47 @@
+<div class="container">
+
+  <div class='jumbotron'>
+    <h1 class="text-center" id="header-name"></h1>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-6 text-center not-devoured">
+    <h2>Burgers Menu:</h2>
+      <br/>
+      <ol class="not-devoured">
+        {{#each burgers}}
+          {{#unless devoured}}
+            {{> burgers/burger-block devour=true}}
+          {{/unless}}
+        {{/each}}
+      </ol>
+    </div>
+
+    <div class="col-md-6 text-center">
+    <h2>Burgers Devoured:</h2>
+      <br/>
+      <ol class="devoured">
+        {{#each burgers}}
+          {{#if devoured}}
+            {{> burgers/burger-block devour=false}}
+          {{/if}}
+        {{/each}}
+      </ol>
+    </div>
+
+  </div>
+  <div class="text-center">
+    <h2>Add a burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="burger-name"></label>
+        <br/>
+        <input type="text" id="burger-name" name="burger_name">
+      </div>
+
+      <button class="btn btn-dark" type="submit">Add Burger</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<li>
+	{{burger_name}}
+
+	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
+		{{#if devour}}<img src="/assets/images/eat.jpg" width="auto" height="35px"><span class="tooltiptext">Devour it!</span>{{else}}<img src="/assets/images/add-64.png" width="auto" height="35px"><span class="tooltiptext">Return to menu!</span>{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}"><img src="/assets/images/delete.jpg" width="auto" height="35px"></button>
+</li>

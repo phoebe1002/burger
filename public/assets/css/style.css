@@ -1,0 +1,64 @@
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.container {
+  margin: 0 20% 10% 20%;
+}
+
+#burger-name {
+  border: solid peru;
+  padding: 30px 80px 30px 80px;
+}
+
+ol.not-devoured {
+  color: peru;
+  text-align: left;
+  margin-left: 20%;
+}
+
+ol.devoured {
+  /* background: #C0C0C0; */
+  color: #808080; 
+  text-align: left;
+  margin-left: 20%;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.change-devour {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.change-devour:hover .tooltiptext {
+  visibility: visible;
+}
+
+#header-name {
+  margin: 50px 30% 0 30%;
+}
