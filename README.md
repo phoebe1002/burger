@@ -11,9 +11,9 @@
 * [Hosting on Heroku](https://vast-fjord-57691.herokuapp.com/)
 
 ## Technologies
-* Node.js
-* npm Packages
-* Express
+* HTML, CSS, Bootstrap
+* JavaScript, jQuery, Node.js, Express.js
+* npm 
 * Handlebars
 * MySQL
 
