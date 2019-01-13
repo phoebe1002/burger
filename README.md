@@ -8,7 +8,8 @@
 ## General info
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-* [Hosting on Heroku](https://vast-fjord-57691.herokuapp.com/)
+## Deployment
+The application is deployed to [Heroku](https://vast-fjord-57691.herokuapp.com/)
 
 ## Technologies
 * HTML, CSS, Bootstrap
@@ -16,6 +17,7 @@
 * npm 
 * Handlebars
 * MySQL
+* Heroku
 
 ## Setup
 * npm install
